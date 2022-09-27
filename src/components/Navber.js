@@ -3,7 +3,7 @@ import Logo from "../images/banquee..png";
 
 const Navber = () => {
   return (
-    <div className="container max-w-[1400px] mx-auto">
+    <div className="container max-w-[1400px] mx-auto py-5">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -83,52 +83,52 @@ const Navber = () => {
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
-            <li>
+            <li class="text-black">
               <a>Features</a>
             </li>
-            <li tabindex="0">
+            <li class="text-black" tabindex="0">
               <a class="justify-between">
                 Compare
                 <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
               <ul class="p-2">
-                <li>
+                <li class="text-black">
                   <a>Submenu 1</a>
                 </li>
-                <li>
+                <li class="text-black">
                   <a>Submenu 2</a>
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="text-black">
               <a>Support</a>
             </li>
-            <li tabindex="0">
+            <li class="text-black" tabindex="0">
               <a class="justify-between">
                 Blog
                 <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
               <ul class="p-2">
-                <li>
+                <li class="text-black">
                   <a>Submenu 1</a>
                 </li>
-                <li>
+                <li class="text-black">
                   <a>Submenu 2</a>
                 </li>
               </ul>
@@ -136,7 +136,7 @@ const Navber = () => {
           </ul>
         </div>
         <div class="navbar-end">
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-5 items-center">
             <button class="btn btn-primary btn-outline border-none">
               Login
             </button>
