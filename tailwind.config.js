@@ -14,6 +14,7 @@ module.exports = {
           "varient-three": "#DFE1F1",
 
           "varient-four": "#DFEAF1",
+          "base-200": "#F8F8F8",
         },
       },
     ],
