@@ -5,7 +5,7 @@ import btnArrow from "../images/buttor-arrow.svg";
 
 const Banner = () => {
   return (
-    <div className="container max-w-[1200px] mx-auto py-24">
+    <div className="container max-w-[1200px] mx-auto py-32">
       <div className="grid grid-cols-2">
         <div>
           <h1 className="text-[100px] leading-[110px] text-black font-medium">
