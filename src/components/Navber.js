@@ -137,10 +137,12 @@ const Navber = () => {
         </div>
         <div class="navbar-end">
           <div className="flex gap-5 items-center">
-            <button class="btn btn-primary btn-outline border-none">
+            <button class="btn btn-primary btn-link no-underline hover:no-underline">
               Login
             </button>
-            <button class="btn btn-primary text-white">Open Account</button>
+            <button class="btn btn-primary text-white hover:bg-accent hover:text-primary border-none">
+              Open Account
+            </button>
           </div>
         </div>
       </div>
